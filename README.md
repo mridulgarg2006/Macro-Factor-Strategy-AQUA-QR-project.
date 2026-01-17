@@ -3,7 +3,7 @@
 ## Overview
 Systematic quantitative investment strategy developed at **AQUA (Advanced Quantitative Analytics)** that links 50+ Indian macroeconomic indicators to sector and factor returns using Hidden Markov Model (HMM) regime detection and statistical regression analysis.
 
-**Status**: ⏳ In Development (Regime detection complete, backtesting in progress)
+**Status**: In Development (Regime detection complete, backtesting in progress)
 
 ## Strategy Framework
 
@@ -71,11 +71,17 @@ IF Regime = Transition:
 ## Data Sources
 
 | Indicator Category | Source | Frequency |
+
 | GDP, Inflation, IIP, MOSPI Data | Ministry of Statistics & Programme Implementation | Monthly |
+
 | Repo Rate, GSec Yields, Monetary Policy | RBI (Reserve Bank of India) | Weekly/Monthly |
+
 | USD/INR, Forex Reserves | RBI, CEIC Data | Daily |
+
 | Crude Oil (Brent, WTI) | CEIC, Bloomberg Terminal | Daily |
+
 | FPI Flows, Equity Indices | NSDL, NSE India | Daily |
+
 | NIFTY 50, Sector Indices | NSE India | Daily |
 
 ---
